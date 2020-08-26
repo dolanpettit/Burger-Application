@@ -1,9 +1,9 @@
-const app = require("express");
-const exphbs = require("express-handlebars");
-const routes = require("./controllers/burgers_controller");
+var express = require("express");
+var exphbs = require("express-handlebars");
+var routes = require("./controllers/burgers_controller");
 
-const PORT = process.env.PORT || 8080;
-const app = express();
+var PORT = process.env.PORT || 8080;
+var app = express();
 
 app.use(express.urlencoded({ extended: true })).use(express.json());
 
