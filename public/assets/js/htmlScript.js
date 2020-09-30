@@ -1,5 +1,5 @@
 $(function () {
-  $(".devourBtn").on("click", function (event) {
+  $(".devourButton").on("click", function (event) {
     var id = $(this).data("id");
     var newDevourState = {
       devoured: true,
@@ -27,13 +27,12 @@ $(function () {
     });
   });
 
-  $(".deleteBtn").on("click", function (event) {
+  $(".deleteButton").on("click", function (event) {
     event.preventDefault();
 
     $.ajax("/api/burgers/all", {
       type: "DELETE",
     }).then(function () {
-      console.log("deleted all burgers");
       location.reload();
     });
   });

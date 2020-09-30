@@ -7,7 +7,7 @@
           <ul>
             {{#each burgers}}
                 {{#unless devoured}}
-                <h5>{{burger_name}}</h5><a class = "btn devourBtn" data-id={{id}}>DEVOUR!!</a>
+                  <h5>{{burger_name}}</h5><a class="btn devourButton" data-id={{id}}>DEVOUR</a>
                 {{/unless}}
             {{/each}}
           </ul>
@@ -21,7 +21,7 @@
           <ul>
             {{#each burgers}}
                 {{#if devoured}}
-                <h5>{{burger_name}}</h5>
+                  <h5>{{burger_name}}</h5>
                 {{/if}}
             {{/each}}
           </ul>
@@ -34,8 +34,8 @@
         <center>
             <h2>Create your own burger</h2>
                 
-            <p>Name your burger:</p>
-            <div class="input-field inline">
+            <p>Give your burger a name:</p>
+            <div class="inline">
             <input id="burgerName" type="input">
             <button type="submit" class="btn-primary addBurger">Add your burger to the menu</button>
         </center>
@@ -43,5 +43,7 @@
   </div>
   <br>
   <hr>
-  <center><button class = "btn deleteBtn">Throw away all burgers</button></center>
+  <center>
+    <button class="btn deleteButton">Throw away all burgers</button>
+  </center>
 </div>
