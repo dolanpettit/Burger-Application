@@ -13,13 +13,11 @@ This is an application that provides the user the ability to name and create the
 
 ## Installation Instructions
 
-If SSH keys are installed, you can install the program by cloning it to your local machine by running git clone git@github.com:dolanpettit/Employee-Tracker.git. Once you have succesfully cloned to your local machine, be sure to install all required dependencies for application by running "npm i" in the command line. You will also want to connect your local machine to a mySQL database and input the schema.sql file. Without the database connected, this application will not be able to work properly.
+If SSH keys are installed, you can install the program by cloning it to your local machine by running git clone git@github.com:dolanpettit/Burger-Application.git. Once you have succesfully cloned to your local machine, be sure to install all required dependencies for application by running "npm i" in the command line. You will also want to connect your local machine to a mySQL database and input the schema.sql file. Without the database connected, this application will not be able to work properly.
 
 ## Usage Information
 
-After the program has been installed, run it using node app. The application will then prompt you with a list of choices such as view, add, or delete: employees, roles, and departments. If no such action is taken you can exit the prompt and the application will end the connection to the database.
-
-View the demo: <a href="https://drive.google.com/file/d/1odd6gbtMp9nZm4dQ8k3zd4rGaCLXMNkv/view">https://drive.google.com/file/d/1odd6gbtMp9nZm4dQ8k3zd4rGaCLXMNkv/view</a>
+This application is deployed on Heroku and can be accessed by visiting this link:
 
 ## Test Instructions
 
