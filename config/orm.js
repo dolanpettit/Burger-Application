@@ -41,8 +41,6 @@ var orm = {
     queryString += generateQuestionMarks(vals.length);
     queryString += ") ";
 
-    console.log(queryString);
-
     connection.query(queryString, vals, function (err, result) {
       if (err) throw err;
       cb(result);
@@ -57,7 +55,6 @@ var orm = {
     queryString += " WHERE ";
     queryString += condition;
 
-    console.log(queryString);
     connection.query(queryString, function (err, result) {
       if (err) throw err;
       cb(result);
