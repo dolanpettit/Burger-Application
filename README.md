@@ -17,7 +17,7 @@ If SSH keys are installed, you can install the program by cloning it to your loc
 
 ## Usage Information
 
-This application is deployed on Heroku and can be accessed by visiting this link: <a src="https://git.heroku.com/fierce-mesa-56796.git">Deployed link</a>
+This application is deployed on Heroku and can be accessed by visiting this link: <a href="https://git.heroku.com/fierce-mesa-56796.git">Deployed link</a>
 
 ## Test Instructions
 
