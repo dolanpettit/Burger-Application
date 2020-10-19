@@ -8,7 +8,7 @@ var app = express();
 app
   .use(express.urlencoded({ extended: true }))
   .use(express.json())
-  .use(express.static(__dirname + "public"))
+  .use(express.static(__dirname + "/public"))
   .use(routes);
 
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
